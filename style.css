@@ -1,25 +1,26 @@
 div.祖父 {
+    /* 最上位の親は全て効くはず */
     background-color: rgba(50, 250, 0, 0.4); 
     border: 2px solid navy;
     width: 65%;
     position: relative;
 }
+
 div.親 {
     background-color: rgba(250, 0, 50, 0.2); 
     border: 2px solid red;
-    width: 45%;
+    width: 45%;　/* 直親が基準 */
     
-    left: 30%;
-    top: 50px;
-  
-    display: block;
+    left: 50%;　/* このままでは効かない？ */
+    top: 200px;　/* このままでは効かない？ */
 }
+
 div.子 {
     background-color: rgba(50, 0, 150, 0.2); 
     border: 1px solid aqua;
-    width: 65%;
+    width: 65%;　/* 直親が基準 */
     position: absolute;
     
-    left: 30%;
-    top: 15px;
+    left: 50%;　/* どこの50％基準？ */
+    top: 300px;　/* どこが基準？ */
 }

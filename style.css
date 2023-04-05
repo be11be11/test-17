@@ -1,11 +1,11 @@
 div.祖父 {
-  　background-color: rgba(0, 200, 50, 0.2); 
+  　background-color: rgba(0, 250, 50, 0.3); 
     border: 2px solid navy;
     width: 95%;
     position: relative;
 }
 div.親 {
-    background-color: rgba(200, 0, 50, 0.3); 
+    background-color: rgba(200, 0, 50, 0.2); 
     border: 2px solid lime;
     width: 80%;
     
@@ -15,7 +15,7 @@ div.親 {
     display: block;
 }
 div.子 {
-    background-color: rgba(50, 0, 200, 0.3); 
+    background-color: rgba(50, 0, 200, 0.2); 
     border: 1px solid aqua;
     width: 70%;
     position: absolute;

@@ -3,6 +3,8 @@ div.祖父 {
     background-color: rgba(50, 250, 0, 0.4); 
     border: 2px solid navy;
     width: 65%;
+    
+    display: inline-block;
     margin: 300px
     position: relative;
 }

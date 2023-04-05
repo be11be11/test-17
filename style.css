@@ -1,16 +1,16 @@
 div.祖父 {
     background-color: rgba(50, 250, 0, 0.4); 
     border: 2px solid navy;
-    width: 95%;
+    width: 65%;
     position: relative;
 }
 div.親 {
     background-color: rgba(250, 0, 50, 0.2); 
-    border: 2px solid lime;
+    border: 2px solid red;
     width: 45%;
     
     left: 30%;
-    top: 30px;
+    top: 50px;
   
     display: block;
 }
@@ -20,6 +20,6 @@ div.子 {
     width: 65%;
     position: absolute;
     
-    left: 70%;
+    left: 30%;
     top: 15px;
 }

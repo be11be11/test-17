@@ -6,7 +6,6 @@ div.祖父 {
     
     display: inline-block;
     margin: 300px;
-    position: relative;
 }
 
 div.親 {
@@ -15,7 +14,7 @@ div.親 {
     width: 45%;　/* 直親が基準 */
     
     display: inline-block;
-    position: absolute;
+    position: relative;
     left: 50%;　/* position: relativeの直親が基準？ */
     top: 200px;　/* このままでは効かない？ */
 }
@@ -26,7 +25,7 @@ div.子 {
     width: 65%;　/* 直親が基準 */
     
     display: inline-block; /* position付けないと効果なし？ */
-    position: absolute;
+    position: absolute;　/* position: relativeの直親が基準？ */
     left: 20%;　/* どこ基準？ */
     top: -175px;　/* どこ基準？ */
 }

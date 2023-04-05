@@ -1,0 +1,21 @@
+.example2{
+    position: relative;
+    border: 2px solid navy;
+  　background-color: rgba(0, 200, 50, 0.2); 
+    width: 70%;
+}
+.example2,.example2>div{
+    background-color: rgba(200, 0, 50, 0.3); 
+    border: 2px solid lime;
+    left: 30%;
+    top: 30px;
+  
+    display: block;
+}
+.example2>div>div{
+    background-color: rgba(50, 0, 200, 0.3); 
+    border: 1px solid aqua;
+    position: absolute;
+    left: 70%;
+    top: 15px;
+}

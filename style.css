@@ -3,6 +3,7 @@ div.祖父 {
     background-color: rgba(50, 250, 0, 0.4); 
     border: 2px solid navy;
     width: 65%;
+    margin: 300px
     position: relative;
 }
 
@@ -25,5 +26,5 @@ div.子 {
     display: inline-block;
     position: absolute;
     left: 50%;　/* どこの50％基準？ */
-    top: 300px;　/* どこが基準？ */
+    top: 100px;　/* どこが基準？ */
 }

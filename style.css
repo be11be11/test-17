@@ -15,7 +15,7 @@ div.親 {
     width: 45%;　/* 直親が基準 */
     
     display: inline-block;
-   
+    position: absolute;
     left: 50%;　/* このままでは効かない？ */
     top: 200px;　/* このままでは効かない？ */
 }
@@ -26,7 +26,7 @@ div.子 {
     width: 65%;　/* 直親が基準 */
     
     display: inline-block;
-    position: absolute;
+    
     left: 50%;　/* どこの50％基準？ */
-    top: 100px;　/* どこが基準？ */
+    top: 175px;　/* どこが基準？ */
 }

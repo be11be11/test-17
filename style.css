@@ -12,7 +12,7 @@ div.親 {
     border: 2px solid red;
     width: 45%;　/* 直親が基準 */
     height: 100px;
-    
+    display: block;
     margin-left: 50%;　/* 直親が基準？ */
     margin-top: 250px;　/* このままでは効かない？ */
 }

@@ -3,14 +3,14 @@ div.祖父 {
     background-color: rgba(50, 250, 0, 0.4); 
     border: 2px solid navy;
     width: 65%;
-    
+    height: 400px;
     display: inline-block;
     margin: 300px;
 }
 
 div.親 {
     background-color: rgba(250, 0, 50, 0.2); 
-    border: 2px solid pink;
+    border: 2px solid orange;
     width: 45%;　/* 直親が基準 */
     
     display: inline-block;

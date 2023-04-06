@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 div.祖父 {
     /* 最上位の親は全て効くはず */
     background-color: rgba(50, 250, 0, 0.4); 

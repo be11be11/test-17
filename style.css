@@ -6,26 +6,28 @@ div.祖父 {
     height: 400px;
     display: inline-block;
     margin: 300px;
+    
+    position: relative;
 }
 
 div.親 {
     background-color: rgba(250, 0, 50, 0.2); 
-    border: 2px solid orange;
+    border: 2px solid red;
     width: 45%;　/* 直親が基準 */
-    
+    height: 100px;
     display: inline-block;
-    position: relative;
+    position: absolute;　/* position: relativeの直親が基準？ */
     left: 50%;　/* 直親が基準？ */
-    top: -250px;　/* このままでは効かない？ */
+    top: 250px;　/* このままでは効かない？ */
 }
 
 div.子 {
     background-color: rgba(50, 0, 150, 0.2); 
     border: 1px solid aqua;
     width: 65%;　/* 直親が基準 */
-    
+    height: 100px;
     display: inline-block; /* position付けないと効果なし？ */
-    position: absolute;　/* position: relativeの直親が基準？ */
+    
     left: -30px;　/* どこ基準？ */
     top: -175px;　/* どこ基準？ */
 }
